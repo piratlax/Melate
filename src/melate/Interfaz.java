@@ -416,6 +416,11 @@ public class Interfaz extends javax.swing.JFrame {
         boleto3();
         boleto4();
         boleto5();
+        boleto6();
+        boleto7();
+        boleto8();
+        boleto9();
+        boleto10();
     }//GEN-LAST:event_btnSuerteActionPerformed
     // iniciamos los boletos
     private void boleto1(){
