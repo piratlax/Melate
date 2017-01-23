@@ -83,18 +83,20 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="txtUno" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtDos" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtCinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSeis" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAdicional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnSuerte" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="txtTres" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtCuatro" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="3" groupAlignment="3" attributes="0">
-                              <Component id="txtCinco" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtSeis" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtAdicional" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btnSuerte" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtUno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDos" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="16" max="32767" attributes="0"/>
@@ -121,6 +123,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Suerte"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSuerteActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -205,12 +210,12 @@
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="jLabel22" min="-2" pref="23" max="-2" attributes="0"/>
+                                          <Component id="resultadoBoleto2" min="-2" pref="23" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                                          <Component id="jLabel21" min="-2" pref="23" max="-2" attributes="0"/>
+                                          <Component id="resultadoBoleto1" min="-2" pref="23" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -233,12 +238,12 @@
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="3" attributes="0">
                                               <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="resultadoBoleto1" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
                                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="resultadoBoleto2" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
@@ -451,12 +456,12 @@
             <Property name="text" type="java.lang.String" value="Boleto 20 56 28 31 54 30 46"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel21">
+        <Component class="javax.swing.JLabel" name="resultadoBoleto1">
           <Properties>
             <Property name="text" type="java.lang.String" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel22">
+        <Component class="javax.swing.JLabel" name="resultadoBoleto2">
           <Properties>
             <Property name="text" type="java.lang.String" value="0"/>
           </Properties>

@@ -3,11 +3,10 @@ package melate;
 
 public class Melate {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Interfaz frm=new Interfaz();
+        frm.setVisible(true);
     }
     
 }

@@ -57,8 +57,8 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
+        resultadoBoleto1 = new javax.swing.JLabel();
+        resultadoBoleto2 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
@@ -83,6 +83,11 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Numeros ganadores"));
 
         btnSuerte.setText("Suerte");
+        btnSuerte.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSuerteActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -111,17 +116,18 @@ public class Interfaz extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtUno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtDos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(txtCinco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtSeis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtAdicional, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnSuerte))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(txtTres, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtCuatro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtCinco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtSeis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtAdicional, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnSuerte))))
+                        .addComponent(txtCuatro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(txtUno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtDos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -167,9 +173,9 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel20.setText("Boleto 20 56 28 31 54 30 46");
 
-        jLabel21.setText("0");
+        resultadoBoleto1.setText("0");
 
-        jLabel22.setText("0");
+        resultadoBoleto2.setText("0");
 
         jLabel23.setText("0");
 
@@ -270,11 +276,11 @@ public class Interfaz extends javax.swing.JFrame {
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addComponent(jLabel2)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(resultadoBoleto2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addComponent(jLabel1)
                                         .addGap(45, 45, 45)
-                                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                        .addComponent(resultadoBoleto1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -289,11 +295,11 @@ public class Interfaz extends javax.swing.JFrame {
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel1)
-                                            .addComponent(jLabel21))
+                                            .addComponent(resultadoBoleto1))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel2)
-                                            .addComponent(jLabel22))
+                                            .addComponent(resultadoBoleto2))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(jLabel3)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -404,6 +410,115 @@ public class Interfaz extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnSuerteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSuerteActionPerformed
+        boleto1();
+    }//GEN-LAST:event_btnSuerteActionPerformed
+    // iniciamos los boletos
+    private void boleto1(){
+        int boleto1=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("52")) boleto1++;
+        if (txtDos.getText().equals("52")) boleto1++;
+        if (txtTres.getText().equals("52")) boleto1++;
+        if (txtCuatro.getText().equals("52")) boleto1++;
+        if (txtCinco.getText().equals("52")) boleto1++;
+        if (txtSeis.getText().equals("52")) boleto1++;
+        if (txtAdicional.getText().equals("52")) boleto1++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("54")) boleto1++;
+        if (txtDos.getText().equals("54")) boleto1++;
+        if (txtTres.getText().equals("54")) boleto1++;
+        if (txtCuatro.getText().equals("54")) boleto1++;
+        if (txtCinco.getText().equals("54")) boleto1++;
+        if (txtSeis.getText().equals("54")) boleto1++;
+        if (txtAdicional.getText().equals("54")) boleto1++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("18")) boleto1++;
+        if (txtDos.getText().equals("18")) boleto1++;
+        if (txtTres.getText().equals("18")) boleto1++;
+        if (txtCuatro.getText().equals("18")) boleto1++;
+        if (txtCinco.getText().equals("18")) boleto1++;
+        if (txtSeis.getText().equals("18")) boleto1++;
+        if (txtAdicional.getText().equals("18")) boleto1++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("6")) boleto1++;
+        if (txtDos.getText().equals("6")) boleto1++;
+        if (txtTres.getText().equals("6")) boleto1++;
+        if (txtCuatro.getText().equals("6")) boleto1++;
+        if (txtCinco.getText().equals("6")) boleto1++;
+        if (txtSeis.getText().equals("6")) boleto1++;
+        if (txtAdicional.getText().equals("6")) boleto1++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("41")) boleto1++;
+        if (txtDos.getText().equals("41")) boleto1++;
+        if (txtTres.getText().equals("41")) boleto1++;
+        if (txtCuatro.getText().equals("41")) boleto1++;
+        if (txtCinco.getText().equals("41")) boleto1++;
+        if (txtSeis.getText().equals("41")) boleto1++;
+        if (txtAdicional.getText().equals("41")) boleto1++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("34")) boleto1++;
+        if (txtDos.getText().equals("34")) boleto1++;
+        if (txtTres.getText().equals("34")) boleto1++;
+        if (txtCuatro.getText().equals("34")) boleto1++;
+        if (txtCinco.getText().equals("34")) boleto1++;
+        if (txtSeis.getText().equals("34")) boleto1++;
+        if (txtAdicional.getText().equals("34")) boleto1++;
+        resultadoBoleto1.setText(String.valueOf(boleto1));
+    }
+    
+    private void boleto2(){
+         int boleto2=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("2")) boleto2++;
+        if (txtDos.getText().equals("2")) boleto2++;
+        if (txtTres.getText().equals("2")) boleto2++;
+        if (txtCuatro.getText().equals("2")) boleto2++;
+        if (txtCinco.getText().equals("2")) boleto2++;
+        if (txtSeis.getText().equals("2")) boleto2++;
+        if (txtAdicional.getText().equals("2")) boleto2++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("17")) boleto2++;
+        if (txtDos.getText().equals("17")) boleto2++;
+        if (txtTres.getText().equals("17")) boleto2++;
+        if (txtCuatro.getText().equals("17")) boleto2++;
+        if (txtCinco.getText().equals("17")) boleto2++;
+        if (txtSeis.getText().equals("17")) boleto2++;
+        if (txtAdicional.getText().equals("17")) boleto2++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("51")) boleto2++;
+        if (txtDos.getText().equals("51")) boleto2++;
+        if (txtTres.getText().equals("51")) boleto2++;
+        if (txtCuatro.getText().equals("51")) boleto2++;
+        if (txtCinco.getText().equals("51")) boleto2++;
+        if (txtSeis.getText().equals("51")) boleto2++;
+        if (txtAdicional.getText().equals("51")) boleto2++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("40")) boleto2++;
+        if (txtDos.getText().equals("40")) boleto2++;
+        if (txtTres.getText().equals("40")) boleto2++;
+        if (txtCuatro.getText().equals("40")) boleto2++;
+        if (txtCinco.getText().equals("40")) boleto2++;
+        if (txtSeis.getText().equals("40")) boleto2++;
+        if (txtAdicional.getText().equals("40")) boleto2++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("41")) boleto2++;
+        if (txtDos.getText().equals("41")) boleto2++;
+        if (txtTres.getText().equals("41")) boleto2++;
+        if (txtCuatro.getText().equals("41")) boleto2++;
+        if (txtCinco.getText().equals("41")) boleto2++;
+        if (txtSeis.getText().equals("41")) boleto2++;
+        if (txtAdicional.getText().equals("41")) boleto2++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("16")) boleto2++;
+        if (txtDos.getText().equals("16")) boleto2++;
+        if (txtTres.getText().equals("16")) boleto2++;
+        if (txtCuatro.getText().equals("16")) boleto2++;
+        if (txtCinco.getText().equals("16")) boleto2++;
+        if (txtSeis.getText().equals("16")) boleto2++;
+        if (txtAdicional.getText().equals("16")) boleto2++;
+        resultadoBoleto2.setText(String.valueOf(boleto2));
+    }
     /**
      * @param args the command line arguments
      */
@@ -454,8 +569,6 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
@@ -483,6 +596,8 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel resultadoBoleto1;
+    private javax.swing.JLabel resultadoBoleto2;
     private javax.swing.JTextField txtAdicional;
     private javax.swing.JTextField txtCinco;
     private javax.swing.JTextField txtCuatro;
