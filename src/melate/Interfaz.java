@@ -67,16 +67,16 @@ public class Interfaz extends javax.swing.JFrame {
         resultadoBoleto8 = new javax.swing.JLabel();
         resultadoBoleto7 = new javax.swing.JLabel();
         resultadoBoleto6 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
+        resultadoBoleto12 = new javax.swing.JLabel();
+        resultadoBoleto11 = new javax.swing.JLabel();
+        resultadoBoleto14 = new javax.swing.JLabel();
+        resultadoBoleto13 = new javax.swing.JLabel();
+        resultadoBoleto15 = new javax.swing.JLabel();
+        resultadoBoleto17 = new javax.swing.JLabel();
+        resultadoBoleto16 = new javax.swing.JLabel();
+        resultadoBoleto19 = new javax.swing.JLabel();
+        resultadoBoleto18 = new javax.swing.JLabel();
+        resultadoBoleto20 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -193,25 +193,25 @@ public class Interfaz extends javax.swing.JFrame {
 
         resultadoBoleto6.setText("0");
 
-        jLabel31.setText("0");
+        resultadoBoleto12.setText("0");
 
-        jLabel32.setText("0");
+        resultadoBoleto11.setText("0");
 
-        jLabel33.setText("0");
+        resultadoBoleto14.setText("0");
 
-        jLabel34.setText("0");
+        resultadoBoleto13.setText("0");
 
-        jLabel35.setText("0");
+        resultadoBoleto15.setText("0");
 
-        jLabel36.setText("0");
+        resultadoBoleto17.setText("0");
 
-        jLabel37.setText("0");
+        resultadoBoleto16.setText("0");
 
-        jLabel38.setText("0");
+        resultadoBoleto19.setText("0");
 
-        jLabel39.setText("0");
+        resultadoBoleto18.setText("0");
 
-        jLabel40.setText("0");
+        resultadoBoleto20.setText("0");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -246,18 +246,18 @@ public class Interfaz extends javax.swing.JFrame {
                                     .addComponent(resultadoBoleto8, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(resultadoBoleto7, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(resultadoBoleto6, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jLabel35, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(resultadoBoleto15, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jLabel40, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto14, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto13, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto12, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto11, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(resultadoBoleto20, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(resultadoBoleto19, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto18, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto17, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoBoleto16, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel5)
@@ -348,16 +348,16 @@ public class Interfaz extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel32)
+                                .addComponent(resultadoBoleto11)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel31)
+                                .addComponent(resultadoBoleto12)
                                 .addGap(56, 56, 56))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel34)
+                                .addComponent(resultadoBoleto13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel33)))
+                                .addComponent(resultadoBoleto14)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel35)))
+                        .addComponent(resultadoBoleto15)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -373,16 +373,16 @@ public class Interfaz extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel37)
+                                .addComponent(resultadoBoleto16)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel36)
+                                .addComponent(resultadoBoleto17)
                                 .addGap(56, 56, 56))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel39)
+                                .addComponent(resultadoBoleto18)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel38)))
+                                .addComponent(resultadoBoleto19)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel40)))
+                        .addComponent(resultadoBoleto20)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -421,6 +421,16 @@ public class Interfaz extends javax.swing.JFrame {
         boleto8();
         boleto9();
         boleto10();
+        boleto11();
+        boleto12();
+        boleto13();
+        boleto14();
+        boleto15();
+        boleto16();
+        boleto17();
+        boleto18();
+        boleto19();
+        boleto20();
     }//GEN-LAST:event_btnSuerteActionPerformed
     // iniciamos los boletos
     private void boleto1(){
@@ -475,7 +485,6 @@ public class Interfaz extends javax.swing.JFrame {
         if (txtAdicional.getText().equals("34")) boleto1++;
         resultadoBoleto1.setText(String.valueOf(boleto1));
     }
-    
     private void boleto2(){
          int boleto2=0;
         //verificamos el primer numero
@@ -944,6 +953,527 @@ public class Interfaz extends javax.swing.JFrame {
         if (txtAdicional.getText().equals("48")) boleto10++;
         resultadoBoleto10.setText(String.valueOf(boleto10));
     }
+    
+    private void boleto11(){
+        int boleto11=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("45")) boleto11++;
+        if (txtDos.getText().equals("45")) boleto11++;
+        if (txtTres.getText().equals("45")) boleto11++;
+        if (txtCuatro.getText().equals("45")) boleto11++;
+        if (txtCinco.getText().equals("45")) boleto11++;
+        if (txtSeis.getText().equals("45")) boleto11++;
+        if (txtAdicional.getText().equals("45")) boleto11++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("7")) boleto11++;
+        if (txtDos.getText().equals("7")) boleto11++;
+        if (txtTres.getText().equals("7")) boleto11++;
+        if (txtCuatro.getText().equals("7")) boleto11++;
+        if (txtCinco.getText().equals("7")) boleto11++;
+        if (txtSeis.getText().equals("7")) boleto11++;
+        if (txtAdicional.getText().equals("7")) boleto11++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("36")) boleto11++;
+        if (txtDos.getText().equals("36")) boleto11++;
+        if (txtTres.getText().equals("36")) boleto11++;
+        if (txtCuatro.getText().equals("36")) boleto11++;
+        if (txtCinco.getText().equals("36")) boleto11++;
+        if (txtSeis.getText().equals("36")) boleto11++;
+        if (txtAdicional.getText().equals("36")) boleto11++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("30")) boleto11++;
+        if (txtDos.getText().equals("30")) boleto11++;
+        if (txtTres.getText().equals("30")) boleto11++;
+        if (txtCuatro.getText().equals("30")) boleto11++;
+        if (txtCinco.getText().equals("30")) boleto11++;
+        if (txtSeis.getText().equals("30")) boleto11++;
+        if (txtAdicional.getText().equals("30")) boleto11++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("22")) boleto11++;
+        if (txtDos.getText().equals("22")) boleto11++;
+        if (txtTres.getText().equals("22")) boleto11++;
+        if (txtCuatro.getText().equals("22")) boleto11++;
+        if (txtCinco.getText().equals("22")) boleto11++;
+        if (txtSeis.getText().equals("22")) boleto11++;
+        if (txtAdicional.getText().equals("22")) boleto11++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("19")) boleto11++;
+        if (txtDos.getText().equals("19")) boleto11++;
+        if (txtTres.getText().equals("19")) boleto11++;
+        if (txtCuatro.getText().equals("19")) boleto11++;
+        if (txtCinco.getText().equals("19")) boleto11++;
+        if (txtSeis.getText().equals("19")) boleto11++;
+        if (txtAdicional.getText().equals("19")) boleto11++;
+        resultadoBoleto11.setText(String.valueOf(boleto11));
+    }
+    private void boleto12(){
+         int boleto12=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("20")) boleto12++;
+        if (txtDos.getText().equals("20")) boleto12++;
+        if (txtTres.getText().equals("20")) boleto12++;
+        if (txtCuatro.getText().equals("20")) boleto12++;
+        if (txtCinco.getText().equals("20")) boleto12++;
+        if (txtSeis.getText().equals("20")) boleto12++;
+        if (txtAdicional.getText().equals("20")) boleto12++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("39")) boleto12++;
+        if (txtDos.getText().equals("39")) boleto12++;
+        if (txtTres.getText().equals("39")) boleto12++;
+        if (txtCuatro.getText().equals("39")) boleto12++;
+        if (txtCinco.getText().equals("39")) boleto12++;
+        if (txtSeis.getText().equals("39")) boleto12++;
+        if (txtAdicional.getText().equals("39")) boleto12++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("29")) boleto12++;
+        if (txtDos.getText().equals("29")) boleto12++;
+        if (txtTres.getText().equals("29")) boleto12++;
+        if (txtCuatro.getText().equals("29")) boleto12++;
+        if (txtCinco.getText().equals("29")) boleto12++;
+        if (txtSeis.getText().equals("29")) boleto12++;
+        if (txtAdicional.getText().equals("29")) boleto12++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("10")) boleto12++;
+        if (txtDos.getText().equals("10")) boleto12++;
+        if (txtTres.getText().equals("10")) boleto12++;
+        if (txtCuatro.getText().equals("10")) boleto12++;
+        if (txtCinco.getText().equals("10")) boleto12++;
+        if (txtSeis.getText().equals("10")) boleto12++;
+        if (txtAdicional.getText().equals("10")) boleto12++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("22")) boleto12++;
+        if (txtDos.getText().equals("22")) boleto12++;
+        if (txtTres.getText().equals("22")) boleto12++;
+        if (txtCuatro.getText().equals("22")) boleto12++;
+        if (txtCinco.getText().equals("22")) boleto12++;
+        if (txtSeis.getText().equals("22")) boleto12++;
+        if (txtAdicional.getText().equals("22")) boleto12++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("19")) boleto12++;
+        if (txtDos.getText().equals("19")) boleto12++;
+        if (txtTres.getText().equals("19")) boleto12++;
+        if (txtCuatro.getText().equals("19")) boleto12++;
+        if (txtCinco.getText().equals("19")) boleto12++;
+        if (txtSeis.getText().equals("19")) boleto12++;
+        if (txtAdicional.getText().equals("19")) boleto12++;
+        resultadoBoleto12.setText(String.valueOf(boleto12));
+    }
+    private void boleto13(){
+         int boleto13=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("53")) boleto13++;
+        if (txtDos.getText().equals("53")) boleto13++;
+        if (txtTres.getText().equals("53")) boleto13++;
+        if (txtCuatro.getText().equals("53")) boleto13++;
+        if (txtCinco.getText().equals("53")) boleto13++;
+        if (txtSeis.getText().equals("53")) boleto13++;
+        if (txtAdicional.getText().equals("53")) boleto13++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("8")) boleto13++;
+        if (txtDos.getText().equals("8")) boleto13++;
+        if (txtTres.getText().equals("8")) boleto13++;
+        if (txtCuatro.getText().equals("8")) boleto13++;
+        if (txtCinco.getText().equals("8")) boleto13++;
+        if (txtSeis.getText().equals("8")) boleto13++;
+        if (txtAdicional.getText().equals("8")) boleto13++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("47")) boleto13++;
+        if (txtDos.getText().equals("47")) boleto13++;
+        if (txtTres.getText().equals("47")) boleto13++;
+        if (txtCuatro.getText().equals("47")) boleto13++;
+        if (txtCinco.getText().equals("47")) boleto13++;
+        if (txtSeis.getText().equals("47")) boleto13++;
+        if (txtAdicional.getText().equals("47")) boleto13++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("30")) boleto13++;
+        if (txtDos.getText().equals("30")) boleto13++;
+        if (txtTres.getText().equals("30")) boleto13++;
+        if (txtCuatro.getText().equals("30")) boleto13++;
+        if (txtCinco.getText().equals("30")) boleto13++;
+        if (txtSeis.getText().equals("30")) boleto13++;
+        if (txtAdicional.getText().equals("30")) boleto13++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("12")) boleto13++;
+        if (txtDos.getText().equals("12")) boleto13++;
+        if (txtTres.getText().equals("12")) boleto13++;
+        if (txtCuatro.getText().equals("12")) boleto13++;
+        if (txtCinco.getText().equals("12")) boleto13++;
+        if (txtSeis.getText().equals("12")) boleto13++;
+        if (txtAdicional.getText().equals("12")) boleto13++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("13")) boleto13++;
+        if (txtDos.getText().equals("13")) boleto13++;
+        if (txtTres.getText().equals("13")) boleto13++;
+        if (txtCuatro.getText().equals("13")) boleto13++;
+        if (txtCinco.getText().equals("13")) boleto13++;
+        if (txtSeis.getText().equals("13")) boleto13++;
+        if (txtAdicional.getText().equals("13")) boleto13++;
+        resultadoBoleto13.setText(String.valueOf(boleto13));
+    }
+    private void boleto14(){
+         int boleto14=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("17")) boleto14++;
+        if (txtDos.getText().equals("17")) boleto14++;
+        if (txtTres.getText().equals("17")) boleto14++;
+        if (txtCuatro.getText().equals("17")) boleto14++;
+        if (txtCinco.getText().equals("17")) boleto14++;
+        if (txtSeis.getText().equals("17")) boleto14++;
+        if (txtAdicional.getText().equals("17")) boleto14++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("13")) boleto14++;
+        if (txtDos.getText().equals("13")) boleto14++;
+        if (txtTres.getText().equals("13")) boleto14++;
+        if (txtCuatro.getText().equals("13")) boleto14++;
+        if (txtCinco.getText().equals("13")) boleto14++;
+        if (txtSeis.getText().equals("13")) boleto14++;
+        if (txtAdicional.getText().equals("13")) boleto14++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("2")) boleto14++;
+        if (txtDos.getText().equals("2")) boleto14++;
+        if (txtTres.getText().equals("2")) boleto14++;
+        if (txtCuatro.getText().equals("2")) boleto14++;
+        if (txtCinco.getText().equals("2")) boleto14++;
+        if (txtSeis.getText().equals("2")) boleto14++;
+        if (txtAdicional.getText().equals("2")) boleto14++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("5")) boleto14++;
+        if (txtDos.getText().equals("5")) boleto14++;
+        if (txtTres.getText().equals("5")) boleto14++;
+        if (txtCuatro.getText().equals("5")) boleto14++;
+        if (txtCinco.getText().equals("5")) boleto14++;
+        if (txtSeis.getText().equals("5")) boleto14++;
+        if (txtAdicional.getText().equals("5")) boleto14++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("27")) boleto14++;
+        if (txtDos.getText().equals("27")) boleto14++;
+        if (txtTres.getText().equals("27")) boleto14++;
+        if (txtCuatro.getText().equals("27")) boleto14++;
+        if (txtCinco.getText().equals("27")) boleto14++;
+        if (txtSeis.getText().equals("27")) boleto14++;
+        if (txtAdicional.getText().equals("27")) boleto14++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("6")) boleto14++;
+        if (txtDos.getText().equals("6")) boleto14++;
+        if (txtTres.getText().equals("6")) boleto14++;
+        if (txtCuatro.getText().equals("6")) boleto14++;
+        if (txtCinco.getText().equals("6")) boleto14++;
+        if (txtSeis.getText().equals("6")) boleto14++;
+        if (txtAdicional.getText().equals("6")) boleto14++;
+        resultadoBoleto14.setText(String.valueOf(boleto14));
+    }
+    private void boleto15(){
+         int boleto15=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("24")) boleto15++;
+        if (txtDos.getText().equals("24")) boleto15++;
+        if (txtTres.getText().equals("24")) boleto15++;
+        if (txtCuatro.getText().equals("24")) boleto15++;
+        if (txtCinco.getText().equals("24")) boleto15++;
+        if (txtSeis.getText().equals("24")) boleto15++;
+        if (txtAdicional.getText().equals("24")) boleto15++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("39")) boleto15++;
+        if (txtDos.getText().equals("39")) boleto15++;
+        if (txtTres.getText().equals("39")) boleto15++;
+        if (txtCuatro.getText().equals("39")) boleto15++;
+        if (txtCinco.getText().equals("39")) boleto15++;
+        if (txtSeis.getText().equals("39")) boleto15++;
+        if (txtAdicional.getText().equals("39")) boleto15++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("13")) boleto15++;
+        if (txtDos.getText().equals("13")) boleto15++;
+        if (txtTres.getText().equals("13")) boleto15++;
+        if (txtCuatro.getText().equals("13")) boleto15++;
+        if (txtCinco.getText().equals("13")) boleto15++;
+        if (txtSeis.getText().equals("13")) boleto15++;
+        if (txtAdicional.getText().equals("13")) boleto15++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("20")) boleto15++;
+        if (txtDos.getText().equals("20")) boleto15++;
+        if (txtTres.getText().equals("20")) boleto15++;
+        if (txtCuatro.getText().equals("20")) boleto15++;
+        if (txtCinco.getText().equals("20")) boleto15++;
+        if (txtSeis.getText().equals("20")) boleto15++;
+        if (txtAdicional.getText().equals("20")) boleto15++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("22")) boleto15++;
+        if (txtDos.getText().equals("22")) boleto15++;
+        if (txtTres.getText().equals("22")) boleto15++;
+        if (txtCuatro.getText().equals("22")) boleto15++;
+        if (txtCinco.getText().equals("22")) boleto15++;
+        if (txtSeis.getText().equals("22")) boleto15++;
+        if (txtAdicional.getText().equals("22")) boleto15++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("10")) boleto15++;
+        if (txtDos.getText().equals("10")) boleto15++;
+        if (txtTres.getText().equals("10")) boleto15++;
+        if (txtCuatro.getText().equals("10")) boleto15++;
+        if (txtCinco.getText().equals("10")) boleto15++;
+        if (txtSeis.getText().equals("10")) boleto15++;
+        if (txtAdicional.getText().equals("10")) boleto15++;
+        resultadoBoleto15.setText(String.valueOf(boleto15));
+    }
+    private void boleto16(){
+        int boleto16=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("41")) boleto16++;
+        if (txtDos.getText().equals("41")) boleto16++;
+        if (txtTres.getText().equals("41")) boleto16++;
+        if (txtCuatro.getText().equals("41")) boleto16++;
+        if (txtCinco.getText().equals("41")) boleto16++;
+        if (txtSeis.getText().equals("41")) boleto16++;
+        if (txtAdicional.getText().equals("41")) boleto16++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("7")) boleto16++;
+        if (txtDos.getText().equals("7")) boleto16++;
+        if (txtTres.getText().equals("7")) boleto16++;
+        if (txtCuatro.getText().equals("7")) boleto16++;
+        if (txtCinco.getText().equals("7")) boleto16++;
+        if (txtSeis.getText().equals("7")) boleto16++;
+        if (txtAdicional.getText().equals("7")) boleto16++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("33")) boleto16++;
+        if (txtDos.getText().equals("33")) boleto16++;
+        if (txtTres.getText().equals("33")) boleto16++;
+        if (txtCuatro.getText().equals("33")) boleto16++;
+        if (txtCinco.getText().equals("33")) boleto16++;
+        if (txtSeis.getText().equals("33")) boleto16++;
+        if (txtAdicional.getText().equals("33")) boleto16++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("38")) boleto16++;
+        if (txtDos.getText().equals("38")) boleto16++;
+        if (txtTres.getText().equals("38")) boleto16++;
+        if (txtCuatro.getText().equals("38")) boleto16++;
+        if (txtCinco.getText().equals("38")) boleto16++;
+        if (txtSeis.getText().equals("38")) boleto16++;
+        if (txtAdicional.getText().equals("38")) boleto16++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("3")) boleto16++;
+        if (txtDos.getText().equals("3")) boleto16++;
+        if (txtTres.getText().equals("3")) boleto16++;
+        if (txtCuatro.getText().equals("3")) boleto16++;
+        if (txtCinco.getText().equals("3")) boleto16++;
+        if (txtSeis.getText().equals("3")) boleto16++;
+        if (txtAdicional.getText().equals("3")) boleto16++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("13")) boleto16++;
+        if (txtDos.getText().equals("13")) boleto16++;
+        if (txtTres.getText().equals("13")) boleto16++;
+        if (txtCuatro.getText().equals("13")) boleto16++;
+        if (txtCinco.getText().equals("13")) boleto16++;
+        if (txtSeis.getText().equals("13")) boleto16++;
+        if (txtAdicional.getText().equals("13")) boleto16++;
+        resultadoBoleto16.setText(String.valueOf(boleto16));
+    }
+    private void boleto17(){
+        int boleto17=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("19")) boleto17++;
+        if (txtDos.getText().equals("19")) boleto17++;
+        if (txtTres.getText().equals("19")) boleto17++;
+        if (txtCuatro.getText().equals("19")) boleto17++;
+        if (txtCinco.getText().equals("19")) boleto17++;
+        if (txtSeis.getText().equals("19")) boleto17++;
+        if (txtAdicional.getText().equals("19")) boleto17++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("38")) boleto17++;
+        if (txtDos.getText().equals("38")) boleto17++;
+        if (txtTres.getText().equals("38")) boleto17++;
+        if (txtCuatro.getText().equals("38")) boleto17++;
+        if (txtCinco.getText().equals("38")) boleto17++;
+        if (txtSeis.getText().equals("38")) boleto17++;
+        if (txtAdicional.getText().equals("38")) boleto17++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("37")) boleto17++;
+        if (txtDos.getText().equals("37")) boleto17++;
+        if (txtTres.getText().equals("37")) boleto17++;
+        if (txtCuatro.getText().equals("37")) boleto17++;
+        if (txtCinco.getText().equals("37")) boleto17++;
+        if (txtSeis.getText().equals("37")) boleto17++;
+        if (txtAdicional.getText().equals("37")) boleto17++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("25")) boleto17++;
+        if (txtDos.getText().equals("25")) boleto17++;
+        if (txtTres.getText().equals("25")) boleto17++;
+        if (txtCuatro.getText().equals("25")) boleto17++;
+        if (txtCinco.getText().equals("25")) boleto17++;
+        if (txtSeis.getText().equals("25")) boleto17++;
+        if (txtAdicional.getText().equals("25")) boleto17++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("51")) boleto17++;
+        if (txtDos.getText().equals("51")) boleto17++;
+        if (txtTres.getText().equals("51")) boleto17++;
+        if (txtCuatro.getText().equals("51")) boleto17++;
+        if (txtCinco.getText().equals("51")) boleto17++;
+        if (txtSeis.getText().equals("51")) boleto17++;
+        if (txtAdicional.getText().equals("51")) boleto17++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("2")) boleto17++;
+        if (txtDos.getText().equals("2")) boleto17++;
+        if (txtTres.getText().equals("2")) boleto17++;
+        if (txtCuatro.getText().equals("2")) boleto17++;
+        if (txtCinco.getText().equals("2")) boleto17++;
+        if (txtSeis.getText().equals("2")) boleto17++;
+        if (txtAdicional.getText().equals("2")) boleto17++;
+        resultadoBoleto17.setText(String.valueOf(boleto17));
+    }
+    private void boleto18(){
+        int boleto18=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("54")) boleto18++;
+        if (txtDos.getText().equals("54")) boleto18++;
+        if (txtTres.getText().equals("54")) boleto18++;
+        if (txtCuatro.getText().equals("54")) boleto18++;
+        if (txtCinco.getText().equals("54")) boleto18++;
+        if (txtSeis.getText().equals("54")) boleto18++;
+        if (txtAdicional.getText().equals("54")) boleto18++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("47")) boleto18++;
+        if (txtDos.getText().equals("47")) boleto18++;
+        if (txtTres.getText().equals("47")) boleto18++;
+        if (txtCuatro.getText().equals("47")) boleto18++;
+        if (txtCinco.getText().equals("47")) boleto18++;
+        if (txtSeis.getText().equals("47")) boleto18++;
+        if (txtAdicional.getText().equals("47")) boleto18++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("34")) boleto18++;
+        if (txtDos.getText().equals("34")) boleto18++;
+        if (txtTres.getText().equals("34")) boleto18++;
+        if (txtCuatro.getText().equals("34")) boleto18++;
+        if (txtCinco.getText().equals("34")) boleto18++;
+        if (txtSeis.getText().equals("34")) boleto18++;
+        if (txtAdicional.getText().equals("34")) boleto18++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("35")) boleto18++;
+        if (txtDos.getText().equals("35")) boleto18++;
+        if (txtTres.getText().equals("35")) boleto18++;
+        if (txtCuatro.getText().equals("35")) boleto18++;
+        if (txtCinco.getText().equals("35")) boleto18++;
+        if (txtSeis.getText().equals("35")) boleto18++;
+        if (txtAdicional.getText().equals("35")) boleto18++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("42")) boleto18++;
+        if (txtDos.getText().equals("42")) boleto18++;
+        if (txtTres.getText().equals("42")) boleto18++;
+        if (txtCuatro.getText().equals("42")) boleto18++;
+        if (txtCinco.getText().equals("42")) boleto18++;
+        if (txtSeis.getText().equals("42")) boleto18++;
+        if (txtAdicional.getText().equals("42")) boleto18++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("51")) boleto18++;
+        if (txtDos.getText().equals("51")) boleto18++;
+        if (txtTres.getText().equals("51")) boleto18++;
+        if (txtCuatro.getText().equals("51")) boleto18++;
+        if (txtCinco.getText().equals("51")) boleto18++;
+        if (txtSeis.getText().equals("51")) boleto18++;
+        if (txtAdicional.getText().equals("51")) boleto18++;
+        resultadoBoleto18.setText(String.valueOf(boleto18));
+    }
+    private void boleto19(){
+         int boleto19=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("1")) boleto19++;
+        if (txtDos.getText().equals("1")) boleto19++;
+        if (txtTres.getText().equals("1")) boleto19++;
+        if (txtCuatro.getText().equals("1")) boleto19++;
+        if (txtCinco.getText().equals("1")) boleto19++;
+        if (txtSeis.getText().equals("1")) boleto19++;
+        if (txtAdicional.getText().equals("1")) boleto19++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("43")) boleto19++;
+        if (txtDos.getText().equals("43")) boleto19++;
+        if (txtTres.getText().equals("43")) boleto19++;
+        if (txtCuatro.getText().equals("43")) boleto19++;
+        if (txtCinco.getText().equals("43")) boleto19++;
+        if (txtSeis.getText().equals("43")) boleto19++;
+        if (txtAdicional.getText().equals("43")) boleto19++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("46")) boleto19++;
+        if (txtDos.getText().equals("46")) boleto19++;
+        if (txtTres.getText().equals("46")) boleto19++;
+        if (txtCuatro.getText().equals("46")) boleto19++;
+        if (txtCinco.getText().equals("46")) boleto19++;
+        if (txtSeis.getText().equals("46")) boleto19++;
+        if (txtAdicional.getText().equals("46")) boleto19++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("31")) boleto19++;
+        if (txtDos.getText().equals("31")) boleto19++;
+        if (txtTres.getText().equals("31")) boleto19++;
+        if (txtCuatro.getText().equals("31")) boleto19++;
+        if (txtCinco.getText().equals("31")) boleto19++;
+        if (txtSeis.getText().equals("31")) boleto19++;
+        if (txtAdicional.getText().equals("31")) boleto19++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("25")) boleto19++;
+        if (txtDos.getText().equals("25")) boleto19++;
+        if (txtTres.getText().equals("25")) boleto19++;
+        if (txtCuatro.getText().equals("25")) boleto19++;
+        if (txtCinco.getText().equals("25")) boleto19++;
+        if (txtSeis.getText().equals("25")) boleto19++;
+        if (txtAdicional.getText().equals("25")) boleto19++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("24")) boleto19++;
+        if (txtDos.getText().equals("24")) boleto19++;
+        if (txtTres.getText().equals("24")) boleto19++;
+        if (txtCuatro.getText().equals("24")) boleto19++;
+        if (txtCinco.getText().equals("24")) boleto19++;
+        if (txtSeis.getText().equals("24")) boleto19++;
+        if (txtAdicional.getText().equals("24")) boleto19++;
+        resultadoBoleto19.setText(String.valueOf(boleto19));
+    }
+    private void boleto20(){
+         int boleto20=0;
+        //verificamos el primer numero
+        if (txtUno.getText().equals("56")) boleto20++;
+        if (txtDos.getText().equals("56")) boleto20++;
+        if (txtTres.getText().equals("56")) boleto20++;
+        if (txtCuatro.getText().equals("56")) boleto20++;
+        if (txtCinco.getText().equals("56")) boleto20++;
+        if (txtSeis.getText().equals("56")) boleto20++;
+        if (txtAdicional.getText().equals("56")) boleto20++;
+        //verificamos el segundo numero numero
+        if (txtUno.getText().equals("28")) boleto20++;
+        if (txtDos.getText().equals("28")) boleto20++;
+        if (txtTres.getText().equals("28")) boleto20++;
+        if (txtCuatro.getText().equals("28")) boleto20++;
+        if (txtCinco.getText().equals("28")) boleto20++;
+        if (txtSeis.getText().equals("28")) boleto20++;
+        if (txtAdicional.getText().equals("28")) boleto20++;
+        //verificamos el tercero numero numero
+        if (txtUno.getText().equals("31")) boleto20++;
+        if (txtDos.getText().equals("31")) boleto20++;
+        if (txtTres.getText().equals("31")) boleto20++;
+        if (txtCuatro.getText().equals("31")) boleto20++;
+        if (txtCinco.getText().equals("31")) boleto20++;
+        if (txtSeis.getText().equals("31")) boleto20++;
+        if (txtAdicional.getText().equals("31")) boleto20++;
+        //verificamos el cuarto numero numero
+        if (txtUno.getText().equals("54")) boleto20++;
+        if (txtDos.getText().equals("54")) boleto20++;
+        if (txtTres.getText().equals("54")) boleto20++;
+        if (txtCuatro.getText().equals("54")) boleto20++;
+        if (txtCinco.getText().equals("54")) boleto20++;
+        if (txtSeis.getText().equals("54")) boleto20++;
+        if (txtAdicional.getText().equals("54")) boleto20++;
+        //verificamos el Quinto numero numero
+        if (txtUno.getText().equals("30")) boleto20++;
+        if (txtDos.getText().equals("30")) boleto20++;
+        if (txtTres.getText().equals("30")) boleto20++;
+        if (txtCuatro.getText().equals("30")) boleto20++;
+        if (txtCinco.getText().equals("30")) boleto20++;
+        if (txtSeis.getText().equals("30")) boleto20++;
+        if (txtAdicional.getText().equals("30")) boleto20++;
+        //verificamos el Sexto numero numero
+        if (txtUno.getText().equals("46")) boleto20++;
+        if (txtDos.getText().equals("46")) boleto20++;
+        if (txtTres.getText().equals("46")) boleto20++;
+        if (txtCuatro.getText().equals("46")) boleto20++;
+        if (txtCinco.getText().equals("46")) boleto20++;
+        if (txtSeis.getText().equals("46")) boleto20++;
+        if (txtAdicional.getText().equals("46")) boleto20++;
+        resultadoBoleto10.setText(String.valueOf(boleto20));
+    }
     /**
      * @param args the command line arguments
      */
@@ -995,17 +1525,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -1015,7 +1535,17 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel resultadoBoleto1;
     private javax.swing.JLabel resultadoBoleto10;
+    private javax.swing.JLabel resultadoBoleto11;
+    private javax.swing.JLabel resultadoBoleto12;
+    private javax.swing.JLabel resultadoBoleto13;
+    private javax.swing.JLabel resultadoBoleto14;
+    private javax.swing.JLabel resultadoBoleto15;
+    private javax.swing.JLabel resultadoBoleto16;
+    private javax.swing.JLabel resultadoBoleto17;
+    private javax.swing.JLabel resultadoBoleto18;
+    private javax.swing.JLabel resultadoBoleto19;
     private javax.swing.JLabel resultadoBoleto2;
+    private javax.swing.JLabel resultadoBoleto20;
     private javax.swing.JLabel resultadoBoleto3;
     private javax.swing.JLabel resultadoBoleto4;
     private javax.swing.JLabel resultadoBoleto5;
